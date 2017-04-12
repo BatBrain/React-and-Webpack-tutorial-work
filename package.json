@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Professional portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --config mywebpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BatBrain/portfolio-website"
+  },
+  "author": "Sol Ferguson",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
